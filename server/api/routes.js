@@ -9,7 +9,7 @@ router.get('/memes',async(req,res,next)=>{
             {
             include:[User],
             order:[
-            ['id','ASC']
+            ['id','DESC']
             ]
             }))
     }catch(ex){

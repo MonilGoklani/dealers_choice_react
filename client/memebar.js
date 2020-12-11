@@ -5,7 +5,7 @@ const MemeBar = ({memes,selectedMeme,deleteMeme}) => {
         <div id='memebar'>
             {memes.map(meme=>{
                 return(
-                    <a key={meme.id}><img onClick = {()=>selectedMeme(meme.id)} className='thumbnail' src={meme.memeUrl}></img><p>{meme.name}<button onClick={()=>deleteMeme(meme.id)}>X</button></p></a>
+                    <a title="click to view" key={meme.id}><img onClick = {()=>selectedMeme(meme.id)} className='thumbnail' src={meme.memeUrl}></img><p>{meme.name}<button onClick={()=>deleteMeme(meme.id)}>X</button></p></a>
                 )
             })}
          </div>

@@ -1,7 +1,15 @@
 [
     {
+        "memeUrl":"https://devhumor.com/content/uploads/images/April2020/javascrip_semicolon.jpg",
+        "name":"Javascript"
+    },
+    {
         "memeUrl":"https://devhumor.com/content/uploads/images/August2020/c_sharp_plus.jpg",
         "name":"Morpheus_C#"
+    },
+    {
+        "memeUrl":"https://media.tenor.com/images/374d4c819d045d3d7a3e14c9c4b16ee2/tenor.gif",
+        "name":"Bug"
     },
     {
         "memeUrl":"https://devhumor.com/content/uploads/images/September2020/sql_programmers.jpg",
@@ -20,7 +28,39 @@
         "name":"Node_Modules"
     },
     {
-        "memeUrl":"https://devhumor.com/content/uploads/images/April2020/javascrip_semicolon.jpg",
-        "name":"Javascript"
+        "memeUrl":"https://media.tenor.com/images/4a96b718f96ee8e5e91c849394449fc1/tenor.gif",
+        "name":"Website"
+    },
+    {
+        "memeUrl":"https://media1.tenor.com/images/c8069eb379fdb4b2f2bc8779869ce959/tenor.gif?itemid=8105335",
+        "name":"Customer"
+    },
+    {
+        "memeUrl":"https://i.imgflip.com/1wnc14.jpg",
+        "name":"Clever"
+    },
+    {
+        "memeUrl":"https://i.imgur.com/Ngwd0lx.jpg",
+        "name":"DosEquisMan"
+    },
+    {
+        "memeUrl":"https://i.pinimg.com/originals/b4/00/bb/b400bba24a3ac713c5611facf4376d7e.jpg",
+        "name":"Back_End"
+    },
+    {
+        "memeUrl":"https://i.imgflip.com/36igpz.jpg",
+        "name":"AI"
+    },
+    {
+        "memeUrl":"https://i.imgflip.com/2a3khz.jpg",
+        "name":"Thuglife"
+    },
+    {
+        "memeUrl":"https://www.testbytes.net/wp-content/uploads/2019/06/Untitled-27.png",
+        "name":"Chuck"
+    },
+    {
+        "memeUrl":"https://images7.memedroid.com/images/UPLOADED972/5daec4333d2b4.jpeg",
+        "name":"Programmers"
     }
 ]

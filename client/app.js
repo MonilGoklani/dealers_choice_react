@@ -40,7 +40,7 @@ async insertMeme(ev){
     }
     const newEntry = (await axios.post('/',newMeme)).data
     this.setState({
-        memes:[...this.state.memes,...newEntry]
+        memes:[...newEntry,...this.state.memes]
     })
 }
 

@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(11, 48, 51);
+    /* background-image: url('/background.jpg');
+    background-size: 100% 100%; */
+    background-color: rgb(255, 202, 181);
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -9,6 +11,7 @@ body{
 
 #title{
     background-color: antiquewhite;
+    font-family:Langar;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -27,16 +30,15 @@ body{
 }
 
 #modify{
-    background-color: rgb(112, 128, 172);
+    background-color: rgb(190, 68, 11);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #insert{
     padding:0.5rem;
 }
-
-
 
 #sub_del{
     background-color:rgb(78, 1, 1);
@@ -48,10 +50,11 @@ body{
 
 label{
     font-size: 20px;
+    font-family:Langar;
+    margin:0 1rem 0 0;
 }
 
 #memebar{
-    background-color: rgb(11, 48, 51);
     display: flex;
     flex-wrap: wrap;
 }
@@ -60,21 +63,43 @@ a{
     flex-direction: column;
     margin:1rem 1rem 0 1rem;
     text-decoration: none;
+    width:150px;
 }
 a>p{
-    margin:0;
-    background-color: rgb(0, 164, 170);
+    margin:0.5rem 0 0 0;
+    background-color:rgb(190, 68, 11);
     border-radius: 10px;
     color:white;
     display:flex;
     justify-content: center;
+    width:135px;
+    font-family: langar;
     }
+p>button{
+    margin:0 0 0 0.5rem;
+}
+p>button:hover{
+    border: solid 5px white;
+    border-radius: 10px;
+    color:red;
+}
 a>img{
     height:125px;
     width:125px;
-    border:5px solid black;
-    
+    border:5px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
+.gifs{
+    height:100px;
+    width:100px;
+    margin:0px;
+}
+a>img:hover {
+    opacity: 0.5;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    border:5px solid rgb(0, 0, 0);
+  }
+
 #memesingle{
     display: flex;
     flex-direction: column;
@@ -83,16 +108,22 @@ a>img{
 
 #memelarge{
     display: flex;
-    justify-content: space-around;
-    color:cornsilk;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(190, 68, 11);
     width: 100%;
-
 }
 #memelarge>img{
     height:400px;
     width:400px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    border:5px solid rgb(0, 0, 0);
 }
 
+#submitter{
+    font-size: 1rem;
+    color:rgb(0, 0, 0)
+}
 
 form{
     display: flex;
@@ -105,5 +136,6 @@ form>div{
 }
 form>button{
     background-color: rgb(51, 51, 51);
+    margin:1rem 0 0 0;
     color:cornsilk;
 }
