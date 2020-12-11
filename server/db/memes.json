@@ -1,0 +1,26 @@
+[
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/August2020/c_sharp_plus.jpg",
+        "name":"Morpheus_C#"
+    },
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/September2020/sql_programmers.jpg",
+        "name":"SQL"
+    },
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/July2020/merge.jpg",
+        "name":"Merge"
+    },
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/October2020/chicken-t-rex.jpg",
+        "name":"FuturePC"
+    },
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/June2020/node_modules_github.jpg",
+        "name":"Node_Modules"
+    },
+    {
+        "memeUrl":"https://devhumor.com/content/uploads/images/April2020/javascrip_semicolon.jpg",
+        "name":"Javascript"
+    }
+]
