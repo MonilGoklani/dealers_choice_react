@@ -2,6 +2,7 @@ import React from 'react'
 
 const MemeBar = ({memes,selectedMeme,deleteMeme}) => {
     return(
+        <div>
         <div id='memebar'>
             {memes.map(meme=>{
                 return(
@@ -9,6 +10,10 @@ const MemeBar = ({memes,selectedMeme,deleteMeme}) => {
                 )
             })}
          </div>
+         <div id='bottombar'>
+         </div>
+        </div>
+
     )
 }
 

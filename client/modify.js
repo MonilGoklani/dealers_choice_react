@@ -3,7 +3,7 @@ import React from 'react'
 const Modify = ({insertMeme}) => {
     return(
         <div id='modify'>
-            <img class='gifs' src="tenor.gif"></img>
+            <img className='gifs' src="tenor.gif"></img>
                 <div id='insert'>
                     <form>
                         <div>
@@ -21,7 +21,7 @@ const Modify = ({insertMeme}) => {
                         <button onClick={(ev)=>insertMeme(ev)}>SUBMIT</button>
                     </form>
                 </div>
-                <img class='gifs' src="dancing.gif"></img>
+                <img className='gifs' src="dancing.gif"></img>
             </div>
     )
 }

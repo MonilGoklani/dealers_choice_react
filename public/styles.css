@@ -139,3 +139,9 @@ form>button{
     margin:1rem 0 0 0;
     color:cornsilk;
 }
+
+#bottombar{
+    background-color: rgb(255, 145, 0);
+    height:20vh;
+    margin:2rem 0 0 0;
+}
