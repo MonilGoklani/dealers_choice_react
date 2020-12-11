@@ -11,7 +11,9 @@ const MemeBar = ({memes,selectedMeme,deleteMeme}) => {
             })}
          </div>
          <div id='bottombar'>
-             <h1>&#128512; ENJOY! &#128512;</h1>
+         <img className='gifs' src="doge.png"></img>
+             <h1>MUCH WOW!</h1>
+             <img className='gifs' src="doge.png"></img>
          </div>
         </div>
 
