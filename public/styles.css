@@ -124,7 +124,7 @@ a>img:hover {
     font-size: 1rem;
     color:rgb(0, 0, 0)
 }
-
+np
 form{
     display: flex;
     flex-direction: column;
@@ -141,6 +141,10 @@ form>button{
 }
 
 #bottombar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
     background-color: rgb(255, 145, 0);
     height:20vh;
     margin:2rem 0 0 0;

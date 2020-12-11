@@ -11,6 +11,7 @@ const MemeBar = ({memes,selectedMeme,deleteMeme}) => {
             })}
          </div>
          <div id='bottombar'>
+             <h1>&#128512; ENJOY! &#128512;</h1>
          </div>
         </div>
 
